@@ -21,6 +21,8 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 - コマンドブロック入りトロッコ/command_block_minecart
 - スポナー入りトロッコ/spawner_minecart
 - 落下中のブロック/falling_sand
+- トロッコ/minecart
+- ボート/boat
 
 # 導入方法/how to import
 
