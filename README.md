@@ -5,8 +5,8 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 
 # 対応バージョン/compatible minecraft version
 
-1.15(operability confirmed)  
-1.15.1
+- 1.15(operability confirmed)  
+- 1.15.1
 
 # 反応しないもの/entities that the trap ignores
 
@@ -21,6 +21,11 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 - コマンドブロック入りトロッコ/command_block_minecart
 - スポナー入りトロッコ/spawner_minecart
 - 落下中のブロック/falling_sand
+
+# 導入方法/how to import
+
+入れたいワールドのセーブデータフォルダにあるdatapacksフォルダ(なければ新規作成してね)の下に入れてください。  
+Place the datapack in the "datapacks" folder in the save data folder of your world.
 
 # 連絡はこちら/Contact
 
