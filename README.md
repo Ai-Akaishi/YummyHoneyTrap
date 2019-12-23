@@ -1,7 +1,12 @@
-# 美味しい蜂蜜トラップ/YummyHoneyTrap
+# おいしい蜂蜜トラップ/YummyHoneyTrap
 
-「ハチミツ入りの瓶」を入れた「額縁」に近寄ってきたエンティティ(敵・動物・アイテムなど)を、スポーンエッグに変えちゃいます！！
+「ハチミツ入りの瓶」を入れた「額縁」に近寄ってきたエンティティ(敵・動物・アイテムなど)を、スポーンエッグに変えちゃいます！！  
 ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
+
+# 対応バージョン/compatible minecraft version
+
+1.15(operability confirmed)  
+1.15.1
 
 # 反応しないもの/entities that the trap ignores
 
