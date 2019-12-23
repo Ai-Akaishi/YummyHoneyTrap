@@ -27,6 +27,11 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 入れたいワールドのセーブデータフォルダにあるdatapacksフォルダ(なければ新規作成してね)の下に入れてください。  
 Place the datapack in the "datapacks" folder in the save data folder of your world.
 
+# アンインストール/uninstall
+
+スコアボードや特殊なエンティティなどを使っていないので、データパックを無効化するか、削除するだけでOKです。  
+Just disable or remove this datapack to uninstall because scoreboards/teams/entities/blocks are not used.
+
 # 連絡はこちら/Contact
 
 https://twitter.com/AiAkaishi
