@@ -12,3 +12,4 @@ execute as @e[dx=0,dy=0,dz=0,tag=YummyHoneyBase,limit=1] at @s positioned ~ ~-0.
 
 # 保存が終わってから削除タグ付与
 tag @s add YummyHoneyDelete
+tag @s add YummyHoneyIgnore
