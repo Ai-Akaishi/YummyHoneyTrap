@@ -1,0 +1,15 @@
+{
+	"values": [
+                "minecraft:player",
+                "minecraft:item_frame",
+                "minecraft:painting",
+                "minecraft:area_effect_cloud",
+                "minecraft:fireball",
+                "minecraft:small_fireball",
+                "minecraft:dragon_fireball",
+                "minecraft:wither_skull",
+                "minecraft:command_block_minecart",
+                "minecraft:spawner_minecart",
+                "minecraft:falling_block"
+	]
+}
