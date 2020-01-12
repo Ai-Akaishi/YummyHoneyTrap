@@ -8,6 +8,11 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 - 1.15(operability confirmed)  
 - 1.15.1
 
+# 注意点/Notice
+
+捕まえたスポーンエッグを使うには、チートコマンドを実行できるプレイヤーである必要があります。  
+You need to be able to run cheating commands to use the SpawnEggs.
+
 # 反応しないもの/entities that the trap ignores
 
 - プレイヤー/player
