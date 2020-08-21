@@ -7,6 +7,7 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 
 - 1.15(operability confirmed)  
 - 1.15.1
+- 1.15.2
 
 # 注意点/Notice
 
