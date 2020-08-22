@@ -1,4 +1,4 @@
-### Copyright © 2020 赤石愛
+### Copyright © 2019 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
 #> yummy_honey_trap:frame/activate
