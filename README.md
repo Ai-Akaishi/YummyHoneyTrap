@@ -6,7 +6,8 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 # 対応バージョン / Compatible minecraft version
 
 - 1.15.x  
-右のReleasesから対応しているバージョンを選んでください。/Select the corresponding version from Releases.
+右のReleasesから対応しているバージョンを選んでください。  
+Select the corresponding version from Releases.
 - 1.16
 - 1.16.1
 - 1.16.2(operability confirmed)
