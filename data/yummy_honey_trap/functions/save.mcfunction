@@ -1,15 +1,19 @@
-### 再帰的に一番下を探索してタグ保存
+### Copyright © 2020 赤石愛
+### This software is released under the MIT License, see LICENSE.
 
-tag @e[dx=0,dy=0,dz=0,tag=!YummyHoneyIgnore,nbt={Passengers:[{Tags:[YummyHoneyBase]}]},limit=1] add YummyHoneyBase
-tag @s remove YummyHoneyBase
-# 下のエンティティがモブ系じゃなかったらたまごの種類記録
-execute if entity @s[team=!YummyHoneyTrap] run data remove storage yummy_honey_trap:temporary Item
-execute unless data storage yummy_honey_trap:temporary Item unless entity @e[dx=0,dy=0,dz=0,team=!YummyHoneyTrap,tag=YummyHoneyBase,limit=1] run function yummy_honey_trap:save/item
-# 下のエンティティがなかったら、タグ保存
-execute unless entity @e[dx=0,dy=0,dz=0,tag=YummyHoneyBase,limit=1] run function yummy_honey_trap:save/spawn_data
-# 再帰探索
-execute as @e[dx=0,dy=0,dz=0,tag=YummyHoneyBase,limit=1] at @s positioned ~ ~-0.1 ~ run function yummy_honey_trap:save
+#> yummy_honey_trap:save
+# エンティティのデータを保存する
+# Save the entity data in the storage.
+# @within
+#   yummy_honey_trap:invoke
 
-# 保存が終わってから削除タグ付与
-tag @s add YummyHoneyDelete
-tag @s add YummyHoneyIgnore
+# 一番下のエンティティを探索してデータ保存
+tag @s add YummyHoneyRoot
+execute at @s positioned ~ ~-0.1 ~ run function yummy_honey_trap:save/seek
+# Mobがいなかった時はアイテムが設定されていないので、現在のエンティティでアイテム設定
+execute unless data storage yummy_honey_trap: Item run function yummy_honey_trap:save/item
+# 保存したデータをアイテムに反映する
+data modify storage yummy_honey_trap: Item.tag.EntityTag set value {id:"minecraft:spawner_minecart",Tags:[YummyHoneyEgg,YummyHoneyIgnore],MaxNearbyEntities:1s,RequiredPlayerRange:-1s,SpawnCount:1s,Delay:0s,MinSpawnDelay:32767s,MaxSpawnDelay:32767s,SpawnRange:0s,SpawnData:{id:"minecraft:experience_orb",Tags:[YummyHoneyIgnore],Age:6000s,Passengers:[{id:"minecraft:bee"}]},SpawnPotentials:[{Weight:1,Entity:{id:"yummy_honey_trap:empty"}}]}
+data modify storage yummy_honey_trap: Item.tag.EntityTag.SpawnData.Passengers[0] set from storage yummy_honey_trap: SpawnData
+# エンティティ削除を予約
+function yummy_honey_trap:delete

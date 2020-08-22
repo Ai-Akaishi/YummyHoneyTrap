@@ -1,22 +1,17 @@
-# おいしい蜂蜜トラップ/YummyHoneyTrap
+# おいしい蜂蜜トラップ / YummyHoneyTrap
 
 「ハチミツ入りの瓶」を入れた「額縁」に近寄ってきたエンティティ(敵・動物・アイテムなど)を、スポーンエッグに変えちゃいます！！  
 ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 
-# 対応バージョン/Compatible minecraft version
+# 対応バージョン / Compatible minecraft version
 
-- 1.15(operability confirmed)  
-- 1.15.1
-- 1.15.2
+- 1.15.x  
+右のReleasesから対応しているバージョンを選んでください。/Select the corresponding version from Releases.
+- 1.16
+- 1.16.1
+- 1.16.2(operability confirmed)
 
-# 注意点/Notice
-
-~~捕まえたスポーンエッグを使うには、チートコマンドを実行できるプレイヤーである必要があります。(v1.0.0)~~  
-チートコマンドを実行できないプレイヤーにも対応しました。(v2.0.0)  
-~~You need to be able to run cheating commands to use the SpawnEggs.(v1.0.0)~~  
-You can use the SpawnEggs, even if you cannot run cheating commands.(v2.0.0)
-
-# 反応しないもの/Entities that the trap ignores
+# 反応しないもの / Entities that the trap ignores
 
 - プレイヤー/player
 - 額縁/item_frame
@@ -32,16 +27,26 @@ You can use the SpawnEggs, even if you cannot run cheating commands.(v2.0.0)
 - トロッコ/minecart
 - ボート/boat
 
-# 導入方法/How to import
+# データが入っている場所 / Where the entity data saved
+
+```
+Item.tag.EntityTag.SpawnData.Passengers[0]
+```
+
+# 導入方法 / How to import
 
 入れたいワールドのセーブデータフォルダにあるdatapacksフォルダ(なければ新規作成してね)の下に入れてください。  
 Place the datapack in the "datapacks" folder in the save data folder of your world.
 
-# アンインストール/Uninstall
+# アンインストール / Uninstall
 
 スコアボードや特殊なエンティティなどを使っていないので、データパックを無効化するか、削除するだけでOKです。  
 Just disable or remove this datapack to uninstall because scoreboards/teams/entities/blocks are not used.
 
-# 連絡はこちら/Contact
+# 連絡はこちら / Contact
 
 https://twitter.com/AiAkaishi
+
+# ライセンス / LICENSE
+
+These codes are released under the MIT License, see LICENSE.
