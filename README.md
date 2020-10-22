@@ -6,11 +6,12 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 # 対応バージョン / Compatible minecraft version
 
 - 1.15.x  
+- 1.16  
+- 1.16.1  
+- 1.16.2  
 右のReleasesから対応しているバージョンを選んでください。  
 Select the corresponding version from Releases.
-- 1.16
-- 1.16.1
-- 1.16.2(operability confirmed)
+- 1.16.3(operability confirmed)
 
 # 反応しないもの / Entities that the trap ignores
 
@@ -31,7 +32,7 @@ Select the corresponding version from Releases.
 # データが入っている場所 / Where the entity data saved
 
 ```
-Item.tag.EntityTag.SpawnData.Passengers[0]
+Item.tag.EntityTag.Item.tag.SpawnData
 ```
 
 # 導入方法 / How to import

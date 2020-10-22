@@ -9,5 +9,5 @@
 
 # 捕まえられるエンティティが入ってきたら罠を発動させる
 execute as @e[tag=YummyHoneyTrap] at @s align xyz if entity @e[dx=0,dy=0,dz=0,type=!#yummy_honey_trap:ignores,type=!#yummy_honey_trap:vehicles,tag=!YummyHoneyIgnore,limit=1] run function yummy_honey_trap:invoke
-# エンティティを出し終わったスポナーを消す
-kill @e[tag=YummyHoneyEgg,nbt={SpawnData:{id:"yummy_honey_trap:empty"}}]
+# タマゴから出す
+execute as @e[tag=YummyHoneyBottle] at @s run function yummy_honey_trap:spawn
