@@ -3,15 +3,17 @@
 「ハチミツ入りの瓶」を入れた「額縁」に近寄ってきたエンティティ(敵・動物・アイテムなど)を、スポーンエッグに変えちゃいます！！  
 ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 
-# 対応バージョン / Compatible minecraft version
+# 動作確認済みバージョン / Verified minecraft versions
 
-- 1.15.x  
-- 1.16  
-- 1.16.1  
-- 1.16.2  
-右のReleasesから対応しているバージョンを選んでください。  
-Select the corresponding version from Releases.
-- 1.16.3(operability confirmed)
+- 1.16.3
+
+以下のバージョンは右のReleasesからどうぞ。  
+For the following versions, please check Releases on the right.
+
+- 1.15.x
+- 1.16
+- 1.16.1
+- 1.16.2
 
 # 反応しないもの / Entities that the trap ignores
 
