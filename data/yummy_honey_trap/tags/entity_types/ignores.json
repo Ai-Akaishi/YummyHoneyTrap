@@ -2,6 +2,7 @@
 	"values": [
                 "minecraft:player",
                 "minecraft:item_frame",
+                "minecraft:glow_item_frame",
                 "minecraft:painting",
                 "minecraft:area_effect_cloud",
                 "minecraft:fireball",
@@ -10,6 +11,7 @@
                 "minecraft:wither_skull",
                 "minecraft:command_block_minecart",
                 "minecraft:spawner_minecart",
-                "minecraft:falling_block"
+                "minecraft:falling_block",
+                "minecraft:marker"
 	]
 }

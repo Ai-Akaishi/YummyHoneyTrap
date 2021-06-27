@@ -5,7 +5,7 @@ ItemFrames that contain a HoneyBottle put a nearby entity in a SpawnEgg!!
 
 # 動作確認済みバージョン / Verified minecraft versions
 
-- 1.16.3
+- 1.17
 
 以下のバージョンは右のReleasesからどうぞ。  
 For the following versions, please check Releases on the right.
@@ -14,6 +14,7 @@ For the following versions, please check Releases on the right.
 - 1.16
 - 1.16.1
 - 1.16.2
+- 1.16.3
 
 # 反応しないもの / Entities that the trap ignores
 
