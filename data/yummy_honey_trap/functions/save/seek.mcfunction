@@ -13,8 +13,8 @@ tag @e[dx=0,dy=0,dz=0,predicate=yummy_honey_trap:is_vehicle,limit=1] add YummyHo
 tag @s remove YummyHoneyRoot
 execute if predicate yummy_honey_trap:is_riding as @e[dx=0,dy=0,dz=0,tag=YummyHoneyRoot,limit=1] at @s positioned ~ ~-0.1 ~ run function yummy_honey_trap:save/seek
 
-# 下のエンティティがいなかったら、データの記録
-execute unless predicate yummy_honey_trap:is_riding run function yummy_honey_trap:save/data
+# 下のエンティティがいなかったら＆記録済みじゃなかったら、データの記録
+execute unless predicate yummy_honey_trap:is_riding unless data storage yummy_honey_trap: {saved:true} run function yummy_honey_trap:save/data
 # 下のエンティティがモブ系じゃなかったら、たまごの種類記録
 execute if entity @s[team=!YummyHoneyTrap] unless data storage yummy_honey_trap: Item run function yummy_honey_trap:save/item
 

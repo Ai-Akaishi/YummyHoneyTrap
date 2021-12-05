@@ -142,3 +142,6 @@ execute unless data storage yummy_honey_trap: {flag:0} store result storage yumm
 execute unless data storage yummy_honey_trap: {flag:0} store result storage yummy_honey_trap: flag int 1 run data remove storage yummy_honey_trap: SpawnData.Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].UUID
 execute unless data storage yummy_honey_trap: {flag:0} store result storage yummy_honey_trap: flag int 1 run data remove storage yummy_honey_trap: SpawnData.Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].UUID
 execute unless data storage yummy_honey_trap: {flag:0} store result storage yummy_honey_trap: flag int 1 run data remove storage yummy_honey_trap: SpawnData.Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].Passengers[].UUID
+
+# データが保存済みと記録
+data modify storage yummy_honey_trap: saved set value true
